@@ -5,7 +5,6 @@ A comprehensive full-stack web application for online bus ticket booking, featur
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0.1-6DB33F?style=for-the-badge&logo=springboot)
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 ---
 
