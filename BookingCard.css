@@ -1,0 +1,68 @@
+.booking-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  border-left: 5px solid #4caf50; /* Green for confirmed */
+}
+
+.booking-card.status-cancelled {
+  border-left-color: #f44336; /* Red for cancelled */
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #eee;
+}
+
+.route {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.pnr {
+  display: block;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 4px;
+}
+
+.status {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.booking-card.status-cancelled .status {
+  background-color: #f44336;
+}
+
+.card-body {
+  padding: 1.5rem;
+  line-height: 1.6;
+}
+
+.card-footer {
+  padding: 1rem 1.5rem;
+  text-align: right;
+  background-color: #f7f7f7;
+}
+
+.cancel-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
